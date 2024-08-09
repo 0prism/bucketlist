@@ -8,7 +8,7 @@
   <style>
 	@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap");
         * {
-        font-family: "Hahmlet", serif;
+          font-family: "Hahmlet", serif;
       	}
 	.bg {
 		background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png');
@@ -36,8 +36,9 @@
 	.img2 {
 		background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png')
 	}
-	</style>
-	<link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucketlist.css"/>
+  <style>
+  <link rel="stylesheet" type="text/css" 
+	href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucketlist.css"/>
 
 </head>
 
@@ -48,10 +49,10 @@
   <div class="flex-row" wrap>
     <div class='bucket' img1-t5 center>바디프로필 찍기</div>
     <div class='bucket' img2-t5 center>일본어 자격증 따기</div>
-    <div class='bucket' img2-t5 center>웹사이트 2개 만들어보기</div>
-    <div class='bucket' img1-t5 center>게임 골드 등급 달성하기</div>
-    <div class='bucket' img1-t5 center>책 5권 읽기</div>
-    <div class='bucket' img2-t5 center>노래방 100점 달성하기</div>
+    <div class='bucket' img3-t5 center>웹사이트 2개 만들어보기</div>
+    <div class='bucket' img4-t5 center>게임 골드 등급 달성하기</div>
+    <div class='bucket' img5-t5 center>책 5권 읽기</div>
+    <div class='bucket' img6-t5 center>노래방 100점 달성하기</div>
   </div>
 	
   <script>
